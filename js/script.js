@@ -1,3 +1,5 @@
+clickbtn('1000');
+
 async function homePage(){
     const url=`https://openapi.programming-hero.com/api/videos/categories`;
     const res = await fetch(url);
@@ -59,4 +61,3 @@ function displayVideos(data){
         videos.appendChild(div);
     });
 }
-
